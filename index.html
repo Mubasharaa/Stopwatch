@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+</head>
+<style>
+    body {
+   
+         /* background-color: blue;  */
+         background-image: url("images/me1079663-time-flies-background-clock-hd-a0180.jpg");
+        text-align: center;
+    }
+    h1{
+    
+        color:black;
+        display:inline-block;
+        width: 100px;
+        background-color: #ADDFFF;
+      
+    }
+    button{
+        background-color:#43C6DB;
+    }
+</style>
+<body>
+    <div>
+        <h2 class="heading">
+            <i>Stop Watch</i>
+        </h2>
+       
+        <!-- <img src="images/me1079663-time-flies-background-clock-hd-a0180.jpg" alt="icon" class="stopwatch-icon"> -->
+    </div>
+    <div>
+        <h1 id="min">0</h1>
+        <h1 id="sec">0</h1>
+        <h1 id="msec">0</h1>
+    </div>
+    <button onclick="start()">Start</button>
+    <button onclick="stop()">Pause</button>
+    <button onclick="reset()">Reset</button>
+    
+    
+
+    <script src="App.js"></script>
+</body>
+</html>
